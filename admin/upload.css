@@ -1,1 +1,286 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
 
+body {
+font-family: Arial, sans-serif;
+background: #0b0b0f;
+color: white;
+}
+
+.admin-layout {
+display: flex;
+min-height: 100vh;
+}
+
+/* SIDEBAR */
+
+.sidebar {
+width: 260px;
+min-height: 100vh;
+padding: 25px 18px;
+background: #111116;
+border-right: 1px solid #292932;
+display: flex;
+flex-direction: column;
+}
+
+.brand {
+display: flex;
+align-items: center;
+gap: 12px;
+padding: 5px 8px 30px;
+}
+
+.brand-logo {
+width: 45px;
+height: 45px;
+border-radius: 12px;
+background: white;
+color: #111;
+display: flex;
+align-items: center;
+justify-content: center;
+font-weight: bold;
+}
+
+.brand h2 {
+font-size: 13px;
+}
+
+.brand span {
+display: block;
+margin-top: 4px;
+color: #777;
+font-size: 9px;
+letter-spacing: 2px;
+}
+
+nav {
+display: flex;
+flex-direction: column;
+gap: 7px;
+}
+
+.nav-item {
+padding: 13px 15px;
+border-radius: 10px;
+color: #aaa;
+text-decoration: none;
+display: flex;
+align-items: center;
+gap: 12px;
+font-size: 14px;
+}
+
+.nav-item:hover,
+.nav-item.active {
+background: #222229;
+color: white;
+}
+
+.logout-btn {
+margin-top: auto;
+padding: 13px;
+border: 1px solid #303039;
+border-radius: 10px;
+background: transparent;
+color: #aaa;
+cursor: pointer;
+}
+
+/* MAIN */
+
+.main-content {
+flex: 1;
+padding: 35px;
+}
+
+.page-header {
+margin-bottom: 30px;
+}
+
+.page-header h1 {
+font-size: 30px;
+}
+
+.page-header p {
+color: #777;
+margin-top: 7px;
+}
+
+/* FORM */
+
+.form-grid {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 20px;
+}
+
+.form-card {
+background: #15151c;
+border: 1px solid #292932;
+border-radius: 15px;
+padding: 25px;
+}
+
+.form-card h2 {
+font-size: 18px;
+margin-bottom: 25px;
+}
+
+.input-group {
+margin-bottom: 22px;
+}
+
+.input-group label {
+display: block;
+margin-bottom: 8px;
+color: #bbb;
+font-size: 14px;
+}
+
+input,
+textarea,
+select {
+width: 100%;
+padding: 13px;
+border: 1px solid #33333d;
+border-radius: 9px;
+background: #0e0e13;
+color: white;
+outline: none;
+font-size: 14px;
+}
+
+textarea {
+resize: vertical;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+border-color: white;
+}
+
+/* UPLOAD AREA */
+
+.upload-area,
+.thumbnail-area {
+text-align: center;
+padding: 35px 20px;
+border: 1px dashed #3a3a45;
+border-radius: 12px;
+}
+
+.upload-icon {
+font-size: 42px;
+margin-bottom: 12px;
+}
+
+.upload-area h3 {
+margin-bottom: 7px;
+}
+
+.upload-area p,
+.thumbnail-area p {
+color: #777;
+font-size: 13px;
+}
+
+input[type="file"] {
+display: none;
+}
+
+.choose-btn {
+display: inline-block;
+margin-top: 18px;
+padding: 11px 18px;
+border-radius: 8px;
+background: white;
+color: #111;
+font-size: 13px;
+font-weight: bold;
+cursor: pointer;
+}
+
+#fileName,
+#thumbnailName {
+margin-top: 12px;
+color: #ccc;
+word-break: break-word;
+}
+
+.thumbnail-title {
+margin-top: 30px !important;
+}
+
+/* BUTTONS */
+
+.form-actions {
+display: flex;
+justify-content: flex-end;
+gap: 12px;
+margin-top: 25px;
+}
+
+.cancel-btn,
+.upload-btn {
+padding: 13px 22px;
+border-radius: 9px;
+cursor: pointer;
+font-weight: bold;
+}
+
+.cancel-btn {
+border: 1px solid #33333d;
+background: transparent;
+color: #aaa;
+}
+
+.upload-btn {
+border: none;
+background: white;
+color: #111;
+}
+
+#statusMessage {
+text-align: right;
+margin-top: 15px;
+color: #aaa;
+}
+
+/* MOBILE */
+
+@media (max-width: 800px) {
+
+
+.admin-layout {
+    display: block;
+}
+
+.sidebar {
+    width: 100%;
+    min-height: auto;
+}
+
+nav {
+    flex-direction: row;
+    overflow-x: auto;
+}
+
+.logout-btn {
+    margin-top: 20px;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.form-grid {
+    grid-template-columns: 1fr;
+}
+
+}
