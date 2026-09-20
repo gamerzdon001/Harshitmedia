@@ -1,1 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>Messages - Harshit Media Editfy</title>
+
+    <link rel="stylesheet" href="messages.css">
+</head>
+
+<body>
+
+<div class="admin-layout">
+    
+<aside class="sidebar">
+
+    <div class="brand">
+        <div class="brand-logo">HME</div>
+
+        <div>
+            <h2>HARSHIT MEDIA</h2>
+            <span>EDITFY ADMIN</span>
+        </div>
+    </div>
+
+    <nav class="admin-nav">
+
+        <a href="dashboard.html" class="nav-item">
+            📊 Dashboard
+        </a>
+
+        <a href="videos.html" class="nav-item">
+            🎬 My Videos
+        </a>
+
+        <a href="upload.html" class="nav-item">
+            ⬆️ Upload Video
+        </a>
+
+        <a href="messages.html" class="nav-item active">
+            💬 Messages
+        </a>
+
+        <a href="#" class="nav-item">
+            ⚙️ Settings
+        </a>
+
+    </nav>
+
+    <button class="logout-btn" onclick="logout()">
+        Logout
+    </button>
+
+</aside>
+
+<main class="main-content">
+
+    <div class="topbar">
+        <div>
+            <h1>Messages</h1>
+            <p>Manage client enquiries</p>
+        </div>
+    </div>
+
+    <section class="messages-section">
+
+        <div class="section-header">
+            <div>
+                <h2>Client Messages</h2>
+                <p>Messages received from your portfolio website</p>
+            </div>
+        </div>
+
+        <div class="messages-list">
+
+            <div class="empty-messages">
+                <div class="empty-icon">💬</div>
+                <h3>No Messages Yet</h3>
+                <p>Client enquiries will appear here.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+</div>
+
+<script src="messages.js"></script>
+
+</body>
+</html>
