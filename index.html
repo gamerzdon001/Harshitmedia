@@ -1,0 +1,1333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="images/harshit.jpg" type="image/jpeg">
+
+    <meta name="description" content="Harshit Media Editfy — Professional video editing for YouTube, Instagram Reels, Shorts and cinematic content.">
+
+    <meta name="keywords" content="video editor, Harshit Media Editfy, CapCut editor, YouTube editor, Instagram reels editor">
+
+    <meta name="author" content="Harshit Media Editfy">
+
+    <meta name="theme-color" content="#080808">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Harshit Media Editfy | Professional Video Editor</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="scroll-progress" id="scrollProgress"></div>
+    <div class="custom-cursor" id="customCursor"></div>
+
+    <div class="page-loader" id="pageLoader">
+        <div class="loader-content">
+            <div class="loader-logo">
+                HARSHIT<span>MEDIA EDITFY</span>
+            </div>
+
+            <div class="loader-line">
+                <div class="loader-fill"></div>
+            </div>
+
+            <p>LOADING EXPERIENCE...</p>
+        </div>
+    </div>
+
+    <!-- NAVBAR -->
+
+    <header class="navbar">
+
+        <div class="logo">
+            HARSHIT<span>MEDIA EDITFY</span>
+        </div>
+
+        <nav class="nav">
+            <a href="#home">Home</a>
+            <a href="#work">My Work</a>
+            <a href="#showcase">Showcase</a>
+            <a href="#services">Services</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="#contact" class="hire-btn">
+            Hire Me
+        </a>
+
+        <button class="menu-toggle" id="menuToggle">
+            ☰
+        </button>
+
+    </header>
+
+
+    <!-- MOBILE MENU -->
+
+    <div class="mobile-menu" id="mobileMenu">
+
+        <a href="#home">Home</a>
+        <a href="#work">My Work</a>
+        <a href="#before-after">Before & After</a>
+        <a href="#services">Services</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#faq">FAQ</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+
+    </div>
+
+
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+
+        <video class="hero-bg-video" autoplay muted loop playsinline>
+            <source src="videos/cinematic.mp4" type="video/mp4">
+        </video>
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+
+            <p class="hero-label">VIDEO EDITOR <span>•</span> CREATIVE STORYTELLER</p>
+
+            <h1>
+                I TURN RAW FOOTAGE INTO
+                <span class="typing-text" id="typingText">STORIES.</span>
+            </h1>
+
+            <p class="hero-text">
+                Professional video editing, cinematic visuals,
+                reels, YouTube videos and creative content.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#work" class="primary-btn">
+                    ▶ View My Work
+                </a>
+
+                <a href="#contact" class="secondary-btn">
+                    Let's Work Together
+                </a>
+
+            </div>
+
+            <div class="availability-badge">
+                <span class="availability-dot"></span>
+                <span>AVAILABLE FOR NEW PROJECTS</span>
+            </div>
+
+        </div>
+
+        <div class="hero-video">
+
+            <video class="featured-video" controls poster="images/cinematic.jpg">
+                <source src="videos/cinematic.mp4" type="video/mp4">
+            </video>
+
+        </div>
+
+    </section>
+
+    <!-- CREATIVE MARQUEE -->
+    <section class="marquee-section">
+        <div class="marquee-track">
+            <span>VIDEO EDITING</span>
+            <span>✦</span>
+            <span>CINEMATIC STORIES</span>
+            <span>✦</span>
+            <span>REELS & SHORTS</span>
+            <span>✦</span>
+            <span>MOTION GRAPHICS</span>
+            <span>✦</span>
+
+            <span>VIDEO EDITING</span>
+            <span>✦</span>
+            <span>CINEMATIC STORIES</span>
+            <span>✦</span>
+            <span>REELS & SHORTS</span>
+            <span>✦</span>
+            <span>MOTION GRAPHICS</span>
+            <span>✦</span>
+        </div>
+    </section>
+
+    <!-- EDITING STATS -->
+    <section class="stats-section">
+        <div class="stats-container">
+
+            <div class="stat-item">
+                <h3 class="counter" data-target="4" data-suffix="+">0</h3>
+                <p>EDITING STYLES</p>
+            </div>
+
+            <div class="stat-item">
+                <h3>HD</h3>
+                <p>HIGH QUALITY OUTPUT</p>
+            </div>
+
+            <div class="stat-item">
+                <h3 class="counter" data-target="24" data-suffix="/7">0</h3>
+                <p>CREATIVE IDEAS</p>
+            </div>
+
+            <div class="stat-item">
+                <h3 class="counter" data-target="100" data-suffix="%">0</h3>
+                <p>CREATIVE FOCUS</p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- WORK -->
+    <section class="work-section" id="work">
+
+        <div class="section-heading">
+
+            <p>PORTFOLIO</p>
+
+            <h2>
+                SELECTED <span>WORK</span>
+            </h2>
+
+        </div>
+
+        <div class="filter-buttons">
+
+            <button class="filter-btn active" data-filter="all">
+                ALL
+            </button>
+
+            <button class="filter-btn" data-filter="cinematic">
+                CINEMATIC
+            </button>
+
+            <button class="filter-btn" data-filter="reels">
+                REELS
+            </button>
+
+            <button class="filter-btn" data-filter="youtube">
+                YOUTUBE
+            </button>
+
+            <button class="filter-btn" data-filter="motion">
+                MOTION
+            </button>
+
+        </div>
+
+
+        <div class="video-grid">
+
+            <!-- VIDEO 1 -->
+            <div class="video-card" data-category="cinematic">
+
+                <div class="video-box">
+
+                <video muted loop playsinline preload="metadata" poster="images/cinematic.jpg">
+                    <source src="videos/cinematic.mp4" type="video/mp4">
+                </video>
+
+                <video muted loop playsinline preload="metadata" poster="images/reel.jpg">
+                    <source src="videos/reel.mp4" type="video/mp4">
+                </video>
+
+                <video muted loop playsinline preload="metadata" poster="images/youtube.jpg">
+                    <source src="videos/youtube.mp4" type="video/mp4">
+                </video>
+
+                <video muted loop playsinline preload="metadata" poster="images/motion.jpg">
+                    <source src="videos/motion.mp4" type="video/mp4">
+                </video>
+
+                <span class="category">
+                     CINEMATIC
+                </span>
+
+            </div>
+
+                <h3>Cinematic Edit</h3>
+
+                <p>
+                    Cinematic color grading & transitions
+                </p>
+
+            </div>
+
+
+            <!-- VIDEO 2 -->
+            <div class="video-card" data-category="reels">
+
+                <div class="video-box">
+
+                <video controls>
+                  <source src="videos/reel.mp4" type="video/mp4">
+                </video>
+
+               <span class="category">
+                   REELS
+              </span>
+
+            </div>
+
+                <h3>Instagram Reel</h3>
+
+                <p>
+                    Fast-paced social media editing
+                </p>
+
+            </div>
+
+
+            <!-- VIDEO 3 -->
+            <div class="video-card" data-category="youtube">
+
+                <div class="video-box">
+
+                <video controls>
+                   <source src="videos/youtube.mp4" type="video/mp4">
+                </video>
+
+            <span class="category">
+                     YOUTUBE
+            </span>
+
+            </div>
+
+                <h3>YouTube Video</h3>
+
+                <p>
+                    Professional YouTube editing
+                </p>
+
+            </div>
+
+
+            <!-- VIDEO 4 -->
+            <div class="video-card" data-category="motion">
+
+            <div class="video-box">
+
+                <video controls>
+                   <source src="videos/motion.mp4" type="video/mp4">
+                 </video>
+
+                <span class="category">
+                     MOTION
+                </span>
+
+            </div>
+
+                <h3>Motion Graphics</h3>
+
+                <p>
+                    Creative animations & effects
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+    <section class="featured-reel" id="featuredReel">
+
+        <div class="section-heading">
+            <p class="section-tag">FEATURED REEL</p>
+            <h2>WATCH THE <span>EDIT.</span></h2>
+            <p>A quick look at Harshit's editing style, pacing and visual storytelling.</p>
+        </div>
+
+        <div class="featured-reel-box">
+
+            <video
+                id="featuredReelVideo"
+                controls
+                playsinline
+                poster="images/cinematic.jpg">
+
+                <source src="videos/cinematic-new.mp4" type="video/mp4">
+
+                Your browser does not support video playback.
+            </video>
+
+            <div class="reel-badge">
+                FEATURED EDIT
+            </div>
+
+        </div>
+
+    </section>
+
+    
+    <!-- BEFORE & AFTER -->
+
+    <section class="before-after-section" id="before-after">
+
+        <div class="section-heading">
+
+            <p>THE TRANSFORMATION</p>
+
+            <h2>
+                RAW <span>→</span> FINAL
+            </h2>
+
+        </div>
+
+        <div class="comparison">
+
+        <!-- PROJECT SHOWCASE -->
+        <section class="showcase-section" id="showcase">
+            <div class="showcase-filters">
+
+                <button class="showcase-filter active" data-showcase-filter="all">
+                    ALL
+                </button>
+
+                <button class="showcase-filter" data-showcase-filter="cinematic">
+                    CINEMATIC
+                </button>
+
+                <button class="showcase-filter" data-showcase-filter="reels">
+                    REELS
+                </button>
+
+                <button class="showcase-filter" data-showcase-filter="youtube">
+                    YOUTUBE
+                </button>
+
+                <button class="showcase-filter" data-showcase-filter="motion">
+                    MOTION
+                </button>
+
+            </div>
+
+            <div class="section-heading">
+                <p class="section-tag">PROJECT SHOWCASE</p>
+                <h2>FROM RAW FOOTAGE TO <span>FINAL STORY.</span></h2>
+                <p>A closer look at the editing style and creative process.</p>
+            </div>
+
+            <div class="showcase-grid">
+
+            <div class="showcase-card" data-showcase-category="cinematic">
+                <div class="showcase-video">
+                    <div class="showcase-overlay">
+                        <span>WATCH PROJECT</span>
+                        <div class="showcase-play">▶</div>
+                    </div>
+
+                <video
+                    controls
+                    muted
+                    loop
+                    playsinline
+                    preload="metadata"
+                    poster="images/cinematic.jpg">
+                    <source src="videos/cinematic.mp4" type="video/mp4">
+                </video>
+            </div>
+
+                <div class="showcase-content">
+                    <span>PROJECT 01</span>
+                    <h3>CINEMATIC STORY</h3>
+                    <p>
+                        Cinematic pacing, color grading, transitions and
+                        sound design combined into a polished visual story.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="showcase-card" data-showcase-category="reels">
+                <div class="showcase-video">
+                    <div class="showcase-overlay">
+                        <span>WATCH PROJECT</span>
+                        <div class="showcase-play">▶</div>
+                    </div>
+                    <video
+                        controls
+                        muted
+                        loop
+                        playsinline
+                        preload="metadata"
+                        poster="images/reel.jpg">
+                        <source src="videos/reel.mp4" type="video/mp4">
+                    </video>
+                </div>
+
+                <div class="showcase-content">
+                    <span>PROJECT 02</span>
+                    <h3>SOCIAL MEDIA REEL</h3>
+                    <p>
+                        Fast cuts, dynamic captions and engaging transitions
+                        designed for short-form content.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="showcase-card" data-showcase-category="youtube">
+                <div class="showcase-video">
+                    <div class="showcase-overlay">
+                        <span>WATCH PROJECT</span>
+                        <div class="showcase-play">▶</div>
+                    </div>
+                    <video
+                        controls
+                        muted
+                        loop
+                        playsinline
+                        preload="metadata"
+                        poster="images/youtube.jpg">
+                        <source src="videos/youtube.mp4" type="video/mp4">
+                    </video>
+                </div>
+
+                <div class="showcase-content">
+                    <span>PROJECT 03</span>
+                    <h3>YOUTUBE CONTENT</h3>
+                    <p>
+                        Clean storytelling, pacing, captions and sound
+                        design built for longer-form creator content.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="showcase-card" data-showcase-category="motion">
+                <div class="showcase-video">
+                    <div class="showcase-overlay">
+                        <span>WATCH PROJECT</span>
+                        <div class="showcase-play">▶</div>
+                    </div>
+                    <video
+                        controls
+                        muted
+                        loop
+                        playsinline
+                        preload="metadata"
+                        poster="images/motion.jpg">
+                        <source src="videos/motion.mp4" type="video/mp4">
+                    </video>
+                </div>
+
+                <div class="showcase-content">
+                    <span>PROJECT 04</span>
+                    <h3>MOTION GRAPHICS</h3>
+                    <p>
+                        Animated typography, visual effects and motion
+                        elements that make the content more dynamic.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+            <!-- RAW FOOTAGE -->
+
+            <div class="comparison-card">
+
+                <div class="comparison-video">
+
+                    <video controls>
+                        <source src="videos/raw.mp4" type="video/mp4">
+                    </video>
+
+                    <div class="comparison-label">
+                        RAW FOOTAGE
+                    </div>
+
+                </div>
+
+                <h3>Original Footage</h3>
+
+                <p>
+                    Unedited footage straight from the camera.
+                </p>
+
+            </div>
+
+
+            <!-- FINAL EDIT -->
+
+            <div class="comparison-card">
+
+                <div class="comparison-video">
+
+                    <video controls>
+                        <source src="videos/cinematic.mp4" type="video/mp4">
+                    </video>
+
+                    <div class="comparison-label final">
+                        FINAL EDIT
+                    </div>
+
+                </div>
+
+                <h3>Harshit's Final Edit</h3>
+
+                <p>
+                    Color grading, transitions, effects and sound design.
+                </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+
+    <!-- SERVICES -->
+
+    <!-- WHY CHOOSE HARSHIT -->
+    <section class="why-section">
+        <div class="section-heading">
+            <p class="section-tag">WHY WORK WITH ME</p>
+            <h2>EDITING THAT MAKES YOUR <span>CONTENT STAND OUT.</span></h2>
+            <p>More than just cuts and transitions — every edit is built around your story.</p>
+        </div>
+
+        <div class="why-grid">
+
+            <div class="why-card">
+                <div class="why-number">01</div>
+                <h3>STORY FIRST</h3>
+                <p>
+                    Every edit is designed to keep your audience engaged
+                    from the first second to the last.
+                </p>
+            </div>
+
+            <div class="why-card">
+                <div class="why-number">02</div>
+                <h3>CREATIVE STYLE</h3>
+                <p>
+                    Cinematic visuals, smooth transitions, effects and
+                    creative pacing tailored to your content.
+                </p>
+            </div>
+
+            <div class="why-card">
+                <div class="why-number">03</div>
+                <h3>HIGH QUALITY</h3>
+                <p>
+                    Clean editing, balanced colors, sound design and
+                    polished final exports.
+                </p>
+            </div>
+
+            <div class="why-card">
+                <div class="why-number">04</div>
+                <h3>CREATOR FOCUSED</h3>
+                <p>
+                    Edits are made specifically for YouTube, Instagram,
+                    Shorts and modern social media content.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- EDITING PROCESS -->
+    <section class="process-section">
+
+        <div class="section-heading">
+            <p class="section-tag">HOW IT WORKS</p>
+            <h2>FROM FOOTAGE TO <span>FINAL CUT.</span></h2>
+            <p>A simple process to turn your footage into polished content.</p>
+        </div>
+
+        <div class="process-grid">
+
+            <div class="process-card">
+                <div class="process-number">01</div>
+                <h3>SEND FOOTAGE</h3>
+                <p>
+                    Share your footage, references and project requirements.
+                </p>
+            </div>
+
+            <div class="process-card">
+                <div class="process-number">02</div>
+                <h3>EDITING</h3>
+                <p>
+                    Harshit turns your footage into an engaging visual story.
+                </p>
+            </div>
+
+            <div class="process-card">
+                <div class="process-number">03</div>
+                <h3>REVIEW</h3>
+                <p>
+                    Review the edit and request revisions according to your package.
+                </p>
+            </div>
+
+            <div class="process-card">
+                <div class="process-number">04</div>
+                <h3>FINAL DELIVERY</h3>
+                <p>
+                    Receive the finished video ready for your platform.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="services-section" id="services">
+
+        <div class="section-heading">
+
+            <p>WHAT I DO</p>
+
+            <h2>
+                MY <span>SERVICES</span>
+            </h2>
+
+        </div>
+
+
+        <div class="services-grid">
+
+            <div class="service" data-service="youtube">
+                <div class="service-number">01</div>
+                <h3>YouTube Editing</h3>
+                <p>
+                    Engaging edits designed for YouTube creators.
+                </p>
+            </div>
+
+
+            <div class="service" data-service="reels">
+                <div class="service-number">02</div>
+                <h3>Reels & Shorts</h3>
+                <p>
+                    Fast, engaging edits for Instagram and YouTube Shorts.
+                </p>
+            </div>
+
+
+            <div class="service" data-service="cinematic">
+                <div class="service-number">03</div>
+                <h3>Cinematic Editing</h3>
+                <p>
+                    Cinematic storytelling, transitions and color grading.
+                </p>
+            </div>
+
+
+            <div class="service" data-service="motion">
+                <div class="service-number">04</div>
+                <h3>Motion Graphics</h3>
+                <p>
+                    Titles, animations and visual effects.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PRICING SECTION -->
+    <section class="pricing-section" id="pricing">
+
+        <div class="section-heading">
+            <p class="section-tag">PRICING</p>
+            <h2>CHOOSE YOUR <span>EDITING PACKAGE.</span></h2>
+            <p>Simple packages for creators, brands and businesses.</p>
+        </div>
+
+        <div class="pricing-grid">
+
+            <!-- STARTER -->
+            <div class="price-card">
+                <p class="price-label">STARTER</p>
+                <h3>₹499<span>/video</span></h3>
+
+                <p class="price-description">
+                    Perfect for short-form content and simple edits.
+                </p>
+
+                <ul>
+                    <li>✓ Basic Video Editing</li>
+                    <li>✓ Cuts & Transitions</li>
+                    <li>✓ Background Music</li>
+                    <li>✓ Basic Color Correction</li>
+                    <li>✓ 1 Revision</li>
+                </ul>
+
+                <a href="https://wa.me/918469005206?text=Hi%20Harshit%2C%20I%27m%20interested%20in%20the%20Starter%20video%20editing%20package." 
+                    class="price-button"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                     GET STARTED
+                </a>
+            </div>
+
+
+            <!-- CREATOR -->
+            <div class="price-card featured-price">
+
+                <div class="popular-badge">MOST POPULAR</div>
+
+                <p class="price-label">CREATOR</p>
+
+                <h3>₹999<span>/video</span></h3>
+
+                <p class="price-description">
+                    For creators who want engaging and polished content.
+                </p>
+
+                <ul>
+                    <li>✓ Professional Video Editing</li>
+                    <li>✓ Smooth Transitions</li>
+                    <li>✓ Color Grading</li>
+                    <li>✓ Sound Effects</li>
+                    <li>✓ Text & Captions</li>
+                    <li>✓ 2 Revisions</li>
+                </ul>
+
+                <a href="https://wa.me/918469005206?text=Hi%20Harshit%2C%20I%27m%20interested%20in%20the%20Creator%20video%20editing%20package." 
+                    lass="price-button"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                     CHOOSE CREATOR
+                </a>
+            </div>
+
+
+            <!-- PRO -->
+            <div class="price-card">
+
+                <p class="price-label">PRO</p>
+
+                <h3>₹1,999<span>/video</span></h3>
+
+                <p class="price-description">
+                    Advanced editing for cinematic and high-impact content.
+                </p>
+
+                <ul>
+                    <li>✓ Advanced Video Editing</li>
+                    <li>✓ Cinematic Color Grading</li>
+                    <li>✓ Motion Graphics</li>
+                    <li>✓ Visual Effects</li>
+                    <li>✓ Advanced Sound Design</li>
+                    <li>✓ 3 Revisions</li>
+                </ul>
+
+                <a href="https://wa.me/918469005206?text=Hi%20Harshit%2C%20I%27m%20interested%20in%20the%20Pro%20video%20editing%20package." 
+                    class="price-button"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                     GO PRO
+                </a>
+            </div>
+
+        </div>
+
+        <p class="pricing-note">
+            Need a custom project? <a href="#contact">Contact Harshit</a> for a custom quote.
+        </p>
+
+    </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <section class="testimonials-section" id="testimonials">
+
+        <div class="section-heading">
+            <p class="section-tag">CLIENT FEEDBACK</p>
+            <h2>WHAT CLIENTS <span>SAY.</span></h2>
+            <p>Real feedback from people who have worked with Harshit.</p>
+        </div>
+
+        <div class="testimonials-grid">
+
+            <div class="testimonial-card">
+                <div class="quote-mark">“</div>
+
+                <p class="testimonial-text">
+                    Add a genuine client review here once you have one.
+                </p>
+
+                <div class="client-info">
+                    <div class="client-avatar">C</div>
+                    <div>
+                        <h4>Client Name</h4>
+                        <span>Content Creator</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="testimonial-card">
+                <div class="quote-mark">“</div>
+
+                <p class="testimonial-text">
+                    Add another genuine review here to show the quality of your editing work.
+                </p>
+
+                <div class="client-info">
+                    <div class="client-avatar">C</div>
+                    <div>
+                        <h4>Client Name</h4>
+                        <span>YouTube Creator</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="testimonial-card">
+                <div class="quote-mark">“</div>
+
+                <p class="testimonial-text">
+                    Replace this text with real feedback from a client or creator.
+                </p>
+
+                <div class="client-info">
+                    <div class="client-avatar">C</div>
+                    <div>
+                        <h4>Client Name</h4>
+                        <span>Brand / Creator</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- FAQ SECTION -->
+    <section class="faq-section" id="faq">
+
+        <div class="section-heading">
+            <p class="section-tag">FAQ</p>
+            <h2>GOT <span>QUESTIONS?</span></h2>
+            <p>Everything you need to know before starting a project.</p>
+        </div>
+
+        <div class="faq-container">
+
+            <details class="faq-item">
+                <summary>What type of videos do you edit?</summary>
+                <p>
+                    Harshit edits YouTube videos, Instagram Reels, Shorts,
+                    cinematic videos, promotional content and more.
+                </p>
+            </details>
+
+            <details class="faq-item">
+                <summary>Which editing software do you use?</summary>
+                <p>
+                    Harshit primarily uses CapCut along with creative editing,
+                    color grading, visual effects and sound design techniques.
+                </p>
+            </details>
+
+            <details class="faq-item">
+                <summary>How do I send my footage?</summary>
+                <p>
+                    After discussing the project, footage can be shared through
+                    a suitable cloud-storage or file-transfer service.
+                </p>
+            </details>
+
+            <details class="faq-item">
+                <summary>Can I request revisions?</summary>
+                <p>
+                    Yes. Revisions depend on the editing package selected.
+                    The number of included revisions is shown in the pricing section.
+                </p>
+            </details>
+
+            <details class="faq-item">
+                <summary>How much does video editing cost?</summary>
+                <p>
+                    Pricing depends on the type, length and complexity of the project.
+                    Check the packages above or contact Harshit for a custom quote.
+                </p>
+            </details>
+
+            <details class="faq-item">
+                <summary>How can I contact Harshit?</summary>
+                <p>
+                    You can contact Harshit directly through WhatsApp or Instagram
+                    using the contact section below.
+                </p>
+            </details>
+
+        </div>
+
+    </section>
+    
+    <!-- TOOLS -->
+
+    <section class="tools-section">
+
+        <div class="section-heading">
+
+            <p>MY WORKFLOW</p>
+
+            <h2>
+                TOOLS I <span>USE</span>
+            </h2>
+
+        </div>
+
+        <div class="tools-grid">
+
+            <div class="tool-card">
+
+                <div class="tool-icon">
+                    CC
+                </div>
+
+                <h3>CapCut</h3>
+
+                <p>
+                    Video Editing & Effects
+                </p>
+
+            </div>
+
+
+            <div class="tool-card">
+
+                <div class="tool-icon">
+                    🎨
+                </div>
+
+                <h3>Color Grading</h3>
+
+                <p>
+                    Cinematic Color & Looks
+                </p>
+
+            </div>
+
+
+            <div class="tool-card">
+
+                <div class="tool-icon">
+                    FX
+                </div>
+
+                <h3>Visual Effects</h3>
+
+                <p>
+                    Creative Effects & Transitions
+                </p>
+
+            </div>
+
+
+            <div class="tool-card">
+
+                <div class="tool-icon">
+                    🎵
+                </div>
+
+                <h3>Sound Design</h3>
+
+                <p>
+                    Music & Sound Effects
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about-section" id="about">
+
+        <img
+           src="images/harshit.jpg"
+           alt="Harshit - Video Editor"
+        class="about-photo"
+        >
+
+        </div>
+
+
+        <div class="about-content">
+
+            <p class="small-title">
+                ABOUT ME
+            </p>
+
+            <h2>
+                I'M <span>HARSHIT</span>
+            </h2>
+
+            <p>
+                I'm a passionate video editor who loves turning
+                ordinary footage into engaging visual stories.
+            </p>
+
+            <p>
+                From cinematic edits to short-form content,
+                I focus on clean editing, strong visuals and
+                creative storytelling.
+            </p>
+
+            <a href="#contact" class="primary-btn">
+                Work With Me
+            </a>
+
+            <a
+                href="https://www.instagram.com/dexteer.ffx/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="about-instagram-button">
+                VIEW INSTAGRAM →
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section class="contact-section" id="contact">
+        
+        <!-- PROJECT INQUIRY FORM -->
+        <div class="inquiry-form">
+
+            <div class="inquiry-heading">
+                <p class="section-tag">START A PROJECT</p>
+                <h3>TELL US ABOUT YOUR <span>PROJECT.</span></h3>
+            </div>
+
+            <form id="projectForm">
+
+                <div class="form-row">
+
+                <div class="form-group">
+                    <label for="clientName">YOUR NAME</label>
+                    <input
+                        type="text"
+                        id="clientName"
+                        placeholder="Enter your name"
+                        required>
+                </div>
+
+                <div class="form-group">
+                    <label for="projectType">PROJECT TYPE</label>
+
+                    <select id="projectType" required>
+                        <option value="">Select project type</option>
+                        <option value="YouTube Video">YouTube Video</option>
+                        <option value="Instagram Reel">Instagram Reel</option>
+                        <option value="Shorts">Shorts</option>
+                        <option value="Cinematic Video">Cinematic Video</option>
+                        <option value="Motion Graphics">Motion Graphics</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+
+            </div>
+
+
+            <div class="form-row">
+
+                <div class="form-group">
+                    <label for="budget">YOUR BUDGET</label>
+
+                    <select id="budget" required>
+                        <option value="">Select budget</option>
+                        <option value="₹500 - ₹1,000">₹500 - ₹1,000</option>
+                        <option value="₹1,000 - ₹2,000">₹1,000 - ₹2,000</option>
+                        <option value="₹2,000 - ₹5,000">₹2,000 - ₹5,000</option>
+                        <option value="₹5,000+">₹5,000+</option>
+                        <option value="Let's discuss">Let's discuss</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="deadline">DEADLINE</label>
+
+                    <input
+                        type="text"
+                        id="deadline"
+                        placeholder="e.g. 5 days">
+                </div>
+
+            </div>
+
+
+            <div class="form-group">
+                <label for="projectMessage">PROJECT DETAILS</label>
+
+                <textarea
+                    id="projectMessage"
+                    rows="6"
+                    placeholder="Tell Harshit about your video, style, duration, references, etc."
+                    required></textarea>
+            </div>
+
+
+            <button type="submit" class="inquiry-button">
+                SEND PROJECT DETAILS →
+            </button>
+
+        </form>
+
+    </div>
+
+        <p class="small-title">
+            HAVE A PROJECT?
+        </p>
+
+        <h2>
+            LET'S CREATE SOMETHING
+            <span>AMAZING.</span>
+        </h2>
+
+        <p>
+            Have footage that needs editing?
+            Let's talk about your project.
+        </p>
+
+<div class="contact-buttons">
+
+    <a
+        href="https://wa.me/918469005206?text=Hi%20Harshit%2C%20I%20saw%20your%20video%20editing%20portfolio%20and%20I%20have%20a%20project."
+        target="_blank"
+        rel="noopener noreferrer"
+        class="primary-btn"
+    >
+        📱 WhatsApp
+    </a>
+    <button class="copy-whatsapp" id="copyWhatsApp">
+        COPY WHATSAPP NUMBER
+    </button>
+
+    <span class="copy-message" id="copyMessage"></span>
+
+    <a
+        href="https://www.instagram.com/dexteer.ffx/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="secondary-btn"
+    >
+        📸 Instagram
+    </a>
+
+</div>
+
+
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="final-cta">
+
+        <div class="cta-content">
+            <p class="section-tag">HAVE A PROJECT?</p>
+
+            <h2>
+                LET'S MAKE SOMETHING
+                <span>AWESOME.</span>
+            </h2>
+
+            <p>
+                Have footage that needs a professional touch?
+                Let's turn your ideas into engaging videos.
+            </p>
+
+            <a
+                href="https://wa.me/918469005206?text=Hi%20Harshit%2C%20I%20have%20a%20video%20editing%20project%20and%20would%20like%20to%20discuss%20it."
+                class="cta-button"
+                target="_blank"
+                rel="noopener noreferrer">
+                START A PROJECT →
+            </a>
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="logo">
+            HARSHIT<span>MEDIA EDITFY</span>
+        </div>
+
+        <p>
+            © 2026 Harshit Media Editfy. All rights reserved.
+        </p>
+
+        <div class="footer-socials">
+            <a
+                href="https://www.instagram.com/dexteer.ffx/"
+                target="_blank"
+                rel="noopener noreferrer">
+                INSTAGRAM ↗
+            </a>
+
+            <a
+                href="https://wa.me/918469005206?text=Hi%20Harshit%2C%20I%20want%20to%20discuss%20a%20video%20editing%20project."
+                target="_blank"
+                rel="noopener noreferrer">
+                WHATSAPP ↗
+            </a>
+        </div>
+    </footer>
+
+    <!-- FLOATING WHATSAPP -->
+    <a
+        href="https://wa.me/918469005206?text=Hi%20Harshit%2C%20I%20want%20to%20discuss%20a%20video%20editing%20project."
+        class="floating-whatsapp"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Contact Harshit on WhatsApp">
+    
+        <span class="whatsapp-icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M20.5 3.5A11.8 11.8 0 0 0 12.1 0C5.6 0 .3 5.3.3 11.8c0 2.1.5 4.1 1.6 5.9L.2 24l6.5-1.7a11.8 11.8 0 0 0 5.4 1.3h.1c6.5 0 11.8-5.3 11.8-11.8 0-3.2-1.3-6.1-3.5-8.3Zm-8.4 18.1h-.1a9.8 9.8 0 0 1-5-1.4l-.4-.2-3.8 1 1-3.7-.2-.4a9.8 9.8 0 0 1-1.5-5.2C2.1 6.4 6.5 2 12 2c2.7 0 5.1 1 7 2.9 1.9 1.9 3 4.3 3 7 0 5.4-4.5 9.7-9.9 9.7Zm5.4-7.3c-.3-.2-1.7-.8-2-.9-.3-.1-.5-.2-.7.2-.2.3-.8.9-.9 1.1-.2.2-.3.2-.6.1-1.6-.8-2.7-1.5-3.8-3.3-.3-.5.3-.4.8-1.3.1-.2.1-.4 0-.6-.1-.2-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.1 1.1-1.1 2.7 0 1.6 1.1 3.2 1.3 3.4.2.2 2.2 3.4 5.4 4.8.8.4 1.4.6 1.9.8.8.3 1.5.3 2 .2.6-.1 1.7-.7 1.9-1.4.2-.7.2-1.3.1-1.4-.1-.1-.3-.2-.6-.3Z"/>
+            </svg>
+        </span>
+        <span class="whatsapp-text">LET'S CHAT</span>
+
+    </a>
+
+    <!-- BACK TO TOP -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        ↑
+    </button>
+
+
+    <!-- VIDEO POPUP -->
+
+<div class="video-modal" id="videoModal">
+
+    <button id="closeVideo" class="close-video">
+        ×
+    </button>
+
+    <button id="fullscreenVideo" class="fullscreen-video">
+        ⛶
+    </button>
+
+    <video id="popupVideo" controls playsinline></video>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
