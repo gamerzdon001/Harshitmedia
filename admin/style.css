@@ -1,1 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
 
+body {
+font-family: Arial, sans-serif;
+background: #0b0b0f;
+color: white;
+min-height: 100vh;
+}
+
+.login-container {
+min-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 20px;
+}
+
+.login-box {
+width: 100%;
+max-width: 420px;
+padding: 40px;
+background: #15151c;
+border: 1px solid #292933;
+border-radius: 18px;
+box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+width: 65px;
+height: 65px;
+margin: 0 auto 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 16px;
+background: white;
+color: #111;
+font-size: 20px;
+font-weight: bold;
+}
+
+h1 {
+text-align: center;
+font-size: 22px;
+letter-spacing: 1px;
+}
+
+.subtitle {
+text-align: center;
+margin-top: 8px;
+margin-bottom: 35px;
+color: #999;
+font-size: 13px;
+letter-spacing: 3px;
+}
+
+.input-group {
+margin-bottom: 20px;
+}
+
+label {
+display: block;
+margin-bottom: 8px;
+color: #ccc;
+font-size: 14px;
+}
+
+input {
+width: 100%;
+padding: 14px;
+border: 1px solid #33333d;
+border-radius: 10px;
+outline: none;
+background: #0e0e13;
+color: white;
+font-size: 15px;
+}
+
+input:focus {
+border-color: white;
+}
+
+button {
+width: 100%;
+padding: 14px;
+margin-top: 5px;
+border: none;
+border-radius: 10px;
+background: white;
+color: #111;
+font-size: 15px;
+font-weight: bold;
+cursor: pointer;
+}
+
+button:hover {
+opacity: 0.9;
+}
+
+#errorMessage {
+margin-top: 15px;
+text-align: center;
+color: #ff6b6b;
+font-size: 14px;
+}
