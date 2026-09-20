@@ -1,1 +1,187 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Harshit Media Editfy</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+
+<body>
+
+<div class="admin-layout">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+
+        <div class="brand">
+            <div class="brand-logo">HME</div>
+
+            <div>
+                <h2>HARSHIT MEDIA</h2>
+                <span>EDITFY ADMIN</span>
+            </div>
+        </div>
+
+        <nav>
+
+            <a href="#" class="nav-item active">
+                <span>📊</span>
+                Dashboard
+            </a>
+
+            <a href="#" class="nav-item">
+                <span>🎬</span>
+                My Videos
+            </a>
+
+            <a href="#" class="nav-item">
+                <span>➕</span>
+                Upload Video
+            </a>
+
+            <a href="#" class="nav-item">
+                <span>📩</span>
+                Messages
+            </a>
+
+            <a href="#" class="nav-item">
+                <span>⚙️</span>
+                Settings
+            </a>
+
+        </nav>
+
+        <button class="logout-btn" onclick="logout()">
+            🚪 Logout
+        </button>
+
+    </aside>
+
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+
+        <header class="topbar">
+
+            <div>
+                <h1>Dashboard</h1>
+                <p>Welcome back, Admin 👋</p>
+            </div>
+
+            <div class="admin-profile">
+                <div class="profile-circle">A</div>
+
+                <div>
+                    <strong>Administrator</strong>
+                    <small>Admin</small>
+                </div>
+            </div>
+
+        </header>
+
+
+        <!-- STAT CARDS -->
+        <section class="stats">
+
+            <div class="stat-card">
+                <div class="stat-icon">🎬</div>
+                <div>
+                    <span>Total Videos</span>
+                    <h2 id="videoCount">0</h2>
+                </div>
+            </div>
+
+            <div class="stat-card">
+                <div class="stat-icon">👁️</div>
+                <div>
+                    <span>Total Views</span>
+                    <h2>0</h2>
+                </div>
+            </div>
+
+            <div class="stat-card">
+                <div class="stat-icon">📩</div>
+                <div>
+                    <span>Messages</span>
+                    <h2>0</h2>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- QUICK ACTIONS -->
+        <section class="dashboard-section">
+
+            <div class="section-header">
+                <div>
+                    <h2>Quick Actions</h2>
+                    <p>Manage your portfolio website</p>
+                </div>
+            </div>
+
+            <div class="quick-actions">
+
+                <button class="action-card" onclick="window.location.href='upload.html'">
+                    <span>🎬</span>
+                    <strong>Upload Video</strong>
+                    <small>Add a new editing project</small>
+                </button>
+
+                <button class="action-card" onclick="window.location.href='videos.html'">
+                    <span>📁</span>
+                    <strong>Manage Videos</strong>
+                    <small>Edit or delete projects</small>
+                </button>
+
+                <button class="action-card" onclick="window.location.href='messages.html'">
+                    <span>💬</span>
+                    <strong>View Messages</strong>
+                    <small>Check client enquiries</small>
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- RECENT VIDEOS -->
+        <section class="dashboard-section">
+
+            <div class="section-header">
+                <div>
+                    <h2>Recent Videos</h2>
+                    <p>Your latest editing projects</p>
+                </div>
+            </div>
+
+            <div class="empty-state">
+
+                <div class="empty-icon">🎬</div>
+
+                <h3>No videos yet</h3>
+
+                <p>
+                    Upload your first editing project
+                    to display it here.
+                </p>
+
+                <button class="primary-btn">
+                    + Upload Video
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</div>
+
+<script src="dashboard.js"></script>
+
+</body>
+</html>
 
