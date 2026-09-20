@@ -1,1 +1,207 @@
+<!DOCTYPE html>
 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Video - Harshit Media Editfy</title>
+    <link rel="stylesheet" href="upload.css">
+</head>
+
+<body>
+
+<div class="admin-layout">
+
+<!-- SIDEBAR -->
+<aside class="sidebar">
+
+    <div class="brand">
+        <div class="brand-logo">HME</div>
+
+        <div>
+            <h2>HARSHIT MEDIA</h2>
+            <span>EDITFY ADMIN</span>
+        </div>
+    </div>
+
+    <nav>
+
+        <a href="dashboard.html" class="nav-item">
+            <span>📊</span>
+            Dashboard
+        </a>
+
+        <a href="dashboard.html" class="nav-item">
+            <span>🎬</span>
+            My Videos
+        </a>
+
+        <a href="upload.html" class="nav-item active">
+            <span>➕</span>
+            Upload Video
+        </a>
+
+        <a href="#" class="nav-item">
+            <span>📩</span>
+            Messages
+        </a>
+
+        <a href="#" class="nav-item">
+            <span>⚙️</span>
+            Settings
+        </a>
+
+    </nav>
+
+    <button class="logout-btn" onclick="logout()">
+        🚪 Logout
+    </button>
+
+</aside>
+
+
+<!-- MAIN -->
+<main class="main-content">
+
+    <div class="page-header">
+        <div>
+            <h1>Upload Video</h1>
+            <p>Add a new editing project to your portfolio.</p>
+        </div>
+    </div>
+
+
+    <form id="uploadForm">
+
+        <div class="form-grid">
+
+            <!-- LEFT -->
+            <div class="form-card">
+
+                <h2>Video Information</h2>
+
+                <div class="input-group">
+                    <label>Video Title</label>
+
+                    <input
+                        type="text"
+                        id="videoTitle"
+                        placeholder="Example: Cinematic Wedding Edit"
+                        required
+                    >
+                </div>
+
+
+                <div class="input-group">
+                    <label>Description</label>
+
+                    <textarea
+                        id="videoDescription"
+                        rows="6"
+                        placeholder="Describe this editing project..."
+                    ></textarea>
+                </div>
+
+
+                <div class="input-group">
+                    <label>Category</label>
+
+                    <select id="category">
+
+                        <option value="Reels">Instagram Reels</option>
+                        <option value="YouTube">YouTube</option>
+                        <option value="Wedding">Wedding</option>
+                        <option value="Cinematic">Cinematic</option>
+                        <option value="Other">Other</option>
+
+                    </select>
+
+                </div>
+
+            </div>
+
+
+            <!-- RIGHT -->
+            <div class="form-card">
+
+                <h2>Video File</h2>
+
+                <div class="upload-area">
+
+                    <div class="upload-icon">🎬</div>
+
+                    <h3>Select your video</h3>
+
+                    <p>MP4, WebM or MOV</p>
+
+                    <input
+                        type="file"
+                        id="videoFile"
+                        accept="video/*"
+                        required
+                    >
+
+                    <label for="videoFile" class="choose-btn">
+                        Choose Video
+                    </label>
+
+                    <p id="fileName"></p>
+
+                </div>
+
+
+                <h2 class="thumbnail-title">Thumbnail</h2>
+
+                <div class="thumbnail-area">
+
+                    <div class="upload-icon">🖼️</div>
+
+                    <p>Select thumbnail image</p>
+
+                    <input
+                        type="file"
+                        id="thumbnail"
+                        accept="image/*"
+                    >
+
+                    <label for="thumbnail" class="choose-btn">
+                        Choose Thumbnail
+                    </label>
+
+                    <p id="thumbnailName"></p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="form-actions">
+
+            <button
+                type="button"
+                class="cancel-btn"
+                onclick="window.location.href='dashboard.html'"
+            >
+                Cancel
+            </button>
+
+            <button type="submit" class="upload-btn">
+                🚀 Upload Video
+            </button>
+
+        </div>
+
+        <p id="statusMessage"></p>
+
+    </form>
+
+</main>
+
+</div>
+
+<script src="upload.js"></script>
+
+</body>
+</html>
